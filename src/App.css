@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 24vmin;
+  pointer-events: none;
+}
+
+.logo-tengah {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.App-logo-dua {
+  height: 24vmin;
+  pointer-events: none;
+}
+
+.App-logo-tengah {
+  height: 50vmin;
+  /* width:400px; */
+  pointer-events: none;
+  border: 10px solid white;
+  border-radius: 10px;
+  align-self: center;
+  /* text-align: center;
+  justify-content: center; */
+}
+
+
+
+/* .logo-kiri{
+  margin-left:30px;
+}
+
+.logo-kanan{
+  margin-right:30px;
+} */
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+
+  .App-logo-dua {
+    animation: App-logo-spin-reverse infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 35px;
+
+  /* margin-top:30px; */
+}
+
+
+.App-header-aktivitas {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 35px;
+  padding:20px;
+
+  /* margin-top:30px; */
+}
+
+
+
+.header_bawah{
+  padding-top:40px;
+}
+
+
+
+
+
+.paragraf_biasa{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+@keyframes App-logo-spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
+
+
+#perkenalan_id {
+  background-color: #000;
+}
