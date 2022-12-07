@@ -30,6 +30,9 @@ function Achievement() {
     return (
         <header className="App-header-aktivitas">
 
+
+<div data-aos="zoom-in" data-aos-duration="1500">
+
 <Carousel fade={true}>
       <Carousel.Item>
         <img
@@ -52,7 +55,7 @@ function Achievement() {
 
         <Carousel.Caption>
           <h3>Saling Support 1 Sama Lain</h3>
-          <p>Selalu saling mendukung 1 sama lain, karena dari hubungan inilah kami bisa menggapai cita - cita kita masing - masing dan bersama</p>
+          <p>Selalu saling mendukung 1 sama lain, karena dari hubungan inilah kami ingin bisa menggapai cita - cita kami masing - masing dan bersama</p>
         </Carousel.Caption>
 
       </Carousel.Item>
@@ -72,6 +75,7 @@ function Achievement() {
       </Carousel.Item>
     </Carousel>
 
+    </div>
       </header>
 
 

@@ -64,19 +64,19 @@ const Home = () => {
       {/* <div id='perkenalan_1'> */}
         <div className="row header_bawah  d-flex justify-content-around">
   
-         <div className="col-4 logo-kiri" data-aos="fade-left" >
+         <div className="col-4 logo-kiri" data-aos="fade-left"   data-aos-duration="1000">
          <img src={love} className="App-logo" alt="logo" />
          </div>
 
 
-         <div className="col-4 logo-tengah" data-aos="fade-up" >
+         <div className="col-4 logo-tengah" data-aos="fade-up"  data-aos-duration="1000" >
           <center>
           <img src={fairuz_maya} className="App-logo-tengah" alt="logo_fm" />
           </center>
          </div>
 
 
-         <div className="col-4 logo-kanan"  data-aos="fade-right">
+         <div className="col-4 logo-kanan"  data-aos="fade-right"  data-aos-duration="1000">
          <img src={love} className="App-logo-dua" alt="logo" />
          </div>
 
@@ -92,9 +92,9 @@ const Home = () => {
 
 
 
-        <div data-aos="zoom-in">
+        <div data-aos="zoom-in" data-aos-duration="1000">
         {'\n'}
-        <h1 className='mt-3' >Selamat Anniversary Untuk Kita !</h1>
+        <h1 className='mt-3' >Selamat Anniversary Untuk Fairuz Firjatullah dan Maya Kencana Wulandari !</h1>
 
 
         <p className='paragraf_biasa'>

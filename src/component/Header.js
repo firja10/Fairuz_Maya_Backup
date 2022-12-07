@@ -24,7 +24,7 @@ function Header() {
               <a class="nav-link" href="/achievement">1<sup>th</sup> Month Anniversary</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pesan Untuk Kita</a>
+              <a class="nav-link" href="/pesan">Pesan Untuk Kita</a>
             </li>
             {/* <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
