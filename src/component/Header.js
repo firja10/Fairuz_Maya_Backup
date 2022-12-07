@@ -21,7 +21,10 @@ function Header() {
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/aktivitas">1<sup>th</sup> Month Anniversary</a>
+              <a class="nav-link" href="/achievement">1<sup>th</sup> Month Anniversary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pesan Untuk Kita</a>
             </li>
             {/* <li class="nav-item">
               <a class="nav-link" href="#">Link</a>

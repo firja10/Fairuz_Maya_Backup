@@ -17,9 +17,9 @@ import 'aos/dist/aos.css';
 
 
 import Header from './component/Header';
-
+import Pesan from './component/Pesan';
 import Konten1 from './component/Konten1';
-import Aktivitas from './component/Aktivitas';
+import Achievement from './component/Achievement';
 
 import {BrowserRouter as Router, Route, Switch, Routes} from 'react-router-dom';
 
@@ -40,7 +40,8 @@ function App() {
        {/* <Home/> */}
           <Routes>
               <Route exact path="/" element={<Home/>} />
-              <Route exact path="/aktivitas" element={<Aktivitas/>} />
+              <Route exact path="/achievement" element={<Achievement/>} />
+              <Route exact path="/pesan" element={<Pesan/>} />
           </Routes>
     </div>
     </Router>
@@ -100,7 +101,7 @@ const Home = () => {
           Setiap tanggal 6 merupakan Anniversary antara Fairuz dan Maya, dimana 6 November 2022 merupakan hari terbentuknya hubungan kami dalam ikatan yang lebih dalam hingga menjadi supporting system satu sama lain yang begitu penting
         </p>
 
-        <a className='btn btn-danger' href="serviskita.com" >Achievement Kita</a>
+        <a className='btn btn-danger' href="/achievement" >Achievement Kita</a>
 
         </div>
 
