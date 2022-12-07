@@ -2,6 +2,7 @@
   "name": "react_fairuz",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://firja10.github.io/Fairuz_Maya_Langgeng",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.10.9",
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
